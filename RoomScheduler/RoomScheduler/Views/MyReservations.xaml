@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RoomScheduler.Views.MyReservations">
+    <ContentPage.Content>
+        <Grid x:Name="PageGrid" RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="2"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" x:Name="HeaderGrid" BackgroundColor="White" RowSpacing="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Column="0" x:Name="BackButton" Style="{StaticResource FA.Solid.LabelStyle}"
+                       Text="&#xf060;" TextColor="Black" FontSize="42" Margin="20">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="BackButton_Tapped" NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <StackLayout Grid.Column="1" Orientation="Vertical" Margin="10" Spacing="3">
+                    <Label Text="Fox.Build" FontSize="Medium"/>
+                    <Label Text="My Reservations" FontSize="Default"/>
+                </StackLayout>
+                <Image Grid.Column="2" Margin="0, 10, 15, 0" HeightRequest="75">
+                    <Image.Source>
+                        <UriImageSource 
+                            Uri="{StaticResource FoxLogo}"
+                            CacheValidity="100"
+                            CachingEnabled="True"/>
+                    </Image.Source>
+                </Image>
+            </Grid>
+
+            <BoxView Grid.Row="1" BackgroundColor="Gray"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

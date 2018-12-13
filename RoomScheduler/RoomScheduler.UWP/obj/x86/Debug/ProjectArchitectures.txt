@@ -1,0 +1,1 @@
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.UWP\RoomScheduler.UWP.csproj;x86
