@@ -9,7 +9,7 @@
                 <RowDefinition Height="2"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-
+               <!--This is a test to see if my git is linked-->
             <Grid Grid.Row="0" x:Name="HeaderGrid" BackgroundColor="White" RowSpacing="0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="auto"/>
