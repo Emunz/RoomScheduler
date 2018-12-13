@@ -6,6 +6,7 @@ using RoomScheduler.Views;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
+using Microsoft.Identity.Client;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace RoomScheduler
@@ -16,9 +17,22 @@ namespace RoomScheduler
         public static string AzureBackendUrl = "http://localhost:5000";
         public static bool UseMockDataStore = true;
 
+        public static PublicClientApplication PCA = null;
+        public static string AuthClientID = ResSched.Config.MSALClientId; //replace this id if you use your own azure tenant, also need to replace the id in the android manifest file and the info.plist file in ios
+        public static string[] AuthScopes = ResSched.Config.MSALAuthScopes;
+        public static string AuthUserName = string.Empty;
+        public static string AuthUserEmail = string.Empty;
+
+        public static UIParent UiParent { get; set; }
+
         public App()
         {
             InitializeComponent();
+
+            PCA = new PublicClientApplication(AuthClientID)
+            {
+                RedirectUri = ResSched.Config.MSALRedirectUri
+            };
 
             if (UseMockDataStore)
                 DependencyService.Register<MockDataStore>();
@@ -30,9 +44,9 @@ namespace RoomScheduler
 
         protected override void OnStart()
         {
-            AppCenter.Start("uwp=db62a449-64c8-4063-8039-cf60499c9e55;" +
-                  "android=07e5dacc-4b03-49ac-99fe-571332935014" +
-                  "ios=af531830-d6c2-4165-bf39-8c07dd6f1895",
+            AppCenter.Start($"uwp={ResSched.Config.AppCenterUWP};" +
+                  $"android={ResSched.Config.AppCenterAndroid};" +
+                  $"ios={ResSched.Config.AppCenteriOS};",
                   typeof(Analytics), typeof(Crashes));
         }
 

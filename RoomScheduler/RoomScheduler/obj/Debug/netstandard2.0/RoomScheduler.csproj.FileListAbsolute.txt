@@ -13,15 +13,10 @@ C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\Views
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\RoomScheduler.csproj.CoreCompileInputs.cache
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\RoomScheduler.AssemblyInfoInputs.cache
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\RoomScheduler.AssemblyInfo.cs
-C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\RoomScheduler.dll
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\RoomScheduler.pdb
-C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\RoomScheduler.dll.mdb
-C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\bin\Debug\netstandard2.0\RoomScheduler.dll.mdb
-C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\RoomScheduler.dll.mdb
-C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\bin\Debug\netstandard2.0\RoomScheduler.dll.mdb
-C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\RoomScheduler.dll.mdb
-C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\bin\Debug\netstandard2.0\RoomScheduler.dll.mdb
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\RoomScheduler.csprojAssemblyReference.cache
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\RoomScheduler.dll.mdb
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\bin\Debug\netstandard2.0\RoomScheduler.dll.mdb
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\RoomScheduler.dll.mdb

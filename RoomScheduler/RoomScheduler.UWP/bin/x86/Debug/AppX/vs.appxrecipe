@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-13T17:57:05.737</Modified>
+      <Modified>2018-12-13T20:15:28.740</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.UWP\bin\x86\Debug\RoomScheduler.UWP.exe">
       <PackagePath>entrypoint\RoomScheduler.UWP.exe</PackagePath>
-      <Modified>2018-12-13T17:57:03.294</Modified>
+      <Modified>2018-12-13T20:15:23.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\emunz.NA\.nuget\packages\microsoft.appcenter.crashes\1.11.0\build\uap10.0\..\..\runtimes\win10-x86\native\WatsonRegistrationUtility.dll">
       <PackagePath>WatsonRegistrationUtility.dll</PackagePath>
@@ -769,7 +769,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\bin\Debug\netstandard2.0\RoomScheduler.dll">
       <PackagePath>RoomScheduler.dll</PackagePath>
-      <Modified>2018-12-13T17:56:57.584</Modified>
+      <Modified>2018-12-13T20:15:13.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\emunz.NA\.nuget\packages\microsoft.appcenter.crashes\1.11.0\runtimes\win10-x86\lib\uap10.0\WatsonRegistrationUtility.winmd">
       <PackagePath>WatsonRegistrationUtility.winmd</PackagePath>
@@ -948,11 +948,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-12-13T17:57:03.121</Modified>
+      <Modified>2018-12-13T20:15:22.776</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-12-13T17:57:03.121</Modified>
+      <Modified>2018-12-13T20:15:22.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1009,11 +1009,11 @@
     <AppxPackagedFile Include="C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-13T16:55:51.785</Modified>
+      <Modified>2018-12-13T20:15:25.882</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.UWP\bin\x86\Debug\Core\RoomScheduler.UWP.exe">
       <PackagePath>RoomScheduler.UWP.exe</PackagePath>
-      <Modified>2018-12-13T17:57:05.732</Modified>
+      <Modified>2018-12-13T20:15:28.733</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
