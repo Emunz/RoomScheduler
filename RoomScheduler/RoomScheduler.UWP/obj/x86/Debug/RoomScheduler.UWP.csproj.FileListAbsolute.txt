@@ -310,3 +310,9 @@ C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.UWP\bin\x86\Debug\SQLitePCLRaw
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.UWP\bin\x86\Debug\SQLitePCLRaw.core.dll
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.UWP\bin\x86\Debug\e_sqlite3.dll
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.UWP\bin\x86\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.UWP\bin\x86\Debug\WatsonRegistrationUtility.dll
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.UWP\bin\x86\Debug\Microsoft.AppCenter.dll
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.UWP\bin\x86\Debug\Microsoft.AppCenter.Analytics.dll
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.UWP\bin\x86\Debug\Microsoft.AppCenter.Crashes.dll
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.UWP\bin\x86\Debug\WatsonRegistrationUtility.winmd
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.UWP\bin\x86\Debug\SQLite-net.dll

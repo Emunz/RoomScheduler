@@ -3,6 +3,8 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using RoomScheduler.Services;
 using RoomScheduler.Views;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace RoomScheduler
@@ -27,7 +29,10 @@ namespace RoomScheduler
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+            AppCenter.Start("uwp=db62a449-64c8-4063-8039-cf60499c9e55;" +
+                  "android=07e5dacc-4b03-49ac-99fe-571332935014" +
+                  "ios=af531830-d6c2-4165-bf39-8c07dd6f1895",
+                  typeof(Analytics));
         }
 
         protected override void OnSleep()

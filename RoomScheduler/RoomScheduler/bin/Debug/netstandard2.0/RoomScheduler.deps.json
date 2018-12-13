@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "6bdc5616b973a075537fadd1d943f3bdc8fbae1c"
+    "signature": "3c2fadec4adbf9c5b6ca11c3715eb7b9e857817d"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,9 @@
     ".NETStandard,Version=v2.0/": {
       "RoomScheduler/1.0.0": {
         "dependencies": {
+          "Microsoft.AppCenter": "1.11.0",
+          "Microsoft.AppCenter.Analytics": "1.11.0",
+          "Microsoft.AppCenter.Crashes": "1.11.0",
           "Microsoft.Identity.Client": "2.4.0-preview",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "11.0.2",
@@ -18,6 +21,36 @@
         },
         "runtime": {
           "RoomScheduler.dll": {}
+        }
+      },
+      "Microsoft.AppCenter/1.11.0": {
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "1.11.0.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/1.11.0": {
+        "dependencies": {
+          "Microsoft.AppCenter": "1.11.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "1.11.0.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.11.0": {
+        "dependencies": {
+          "Microsoft.AppCenter": "1.11.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "1.11.0.0"
+          }
         }
       },
       "Microsoft.Identity.Client/2.4.0-preview": {
@@ -766,6 +799,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AppCenter/1.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kh+maAyQvGfaN/Y3HkB0BE9MqnVzfq3W0Yu7MX2vaje0CwVtLTVHTeZ4KGFMUheyLdC6mHeH6/NxszamfzjBJQ==",
+      "path": "microsoft.appcenter/1.11.0",
+      "hashPath": "microsoft.appcenter.1.11.0.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Analytics/1.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kwVpbRmaqlat5K4XQzQuGQAMgqjd6wyBTVLsTcBEXSufrqtbFcDhI0Sj0xreSXPFWFYvttTaKUDTQYc53VdC4A==",
+      "path": "microsoft.appcenter.analytics/1.11.0",
+      "hashPath": "microsoft.appcenter.analytics.1.11.0.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Crashes/1.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CB2sLdRIvGOHKjCXGJRTY65sj6q5Q/x1FWUMGDDEEuOVGZOmN51ni6fZr67zdsDrtlkF7fwFvlU5wOaYHB/Hsw==",
+      "path": "microsoft.appcenter.crashes/1.11.0",
+      "hashPath": "microsoft.appcenter.crashes.1.11.0.nupkg.sha512"
     },
     "Microsoft.Identity.Client/2.4.0-preview": {
       "type": "package",

@@ -108,6 +108,12 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "RoomScheduler.Android.dll" comes first in this list. */
 		"RoomScheduler.Android.dll",
 		"FormsViewGroup.dll",
+		"Microsoft.AppCenter.Analytics.Android.Bindings.dll",
+		"Microsoft.AppCenter.Analytics.dll",
+		"Microsoft.AppCenter.Android.Bindings.dll",
+		"Microsoft.AppCenter.Crashes.Android.Bindings.dll",
+		"Microsoft.AppCenter.Crashes.dll",
+		"Microsoft.AppCenter.dll",
 		"Microsoft.Identity.Client.dll",
 		"Newtonsoft.Json.dll",
 		"RoomScheduler.dll",

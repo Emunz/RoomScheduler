@@ -14,8 +14,10 @@ C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\bin\Debug\netstandard2.0\RoomS
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\RoomScheduler.dll
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\RoomScheduler.pdb
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\Views\AboutUs.xaml.g.cs
-C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\Views\MyReservations.xaml.g.cs
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\RoomScheduler.dll.mdb
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\bin\Debug\netstandard2.0\RoomScheduler.dll.mdb
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\obj\Debug\netstandard2.0\RoomScheduler.dll.mdb
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler\bin\Debug\netstandard2.0\RoomScheduler.dll.mdb

@@ -1,6 +1,12 @@
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.Android\obj\Debug\MonoAndroid81\android\assets\RoomScheduler.Android.dll
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.Android\obj\Debug\MonoAndroid81\android\assets\FormsViewGroup.dll
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.Android\obj\Debug\MonoAndroid81\android\assets\Java.Interop.dll
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.Android\obj\Debug\MonoAndroid81\android\assets\Microsoft.AppCenter.Analytics.Android.Bindings.dll
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.Android\obj\Debug\MonoAndroid81\android\assets\Microsoft.AppCenter.Analytics.dll
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.Android\obj\Debug\MonoAndroid81\android\assets\Microsoft.AppCenter.Android.Bindings.dll
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.Android\obj\Debug\MonoAndroid81\android\assets\Microsoft.AppCenter.Crashes.Android.Bindings.dll
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.Android\obj\Debug\MonoAndroid81\android\assets\Microsoft.AppCenter.Crashes.dll
+C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.Android\obj\Debug\MonoAndroid81\android\assets\Microsoft.AppCenter.dll
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.Android\obj\Debug\MonoAndroid81\android\assets\Microsoft.Identity.Client.dll
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.Android\obj\Debug\MonoAndroid81\android\assets\Mono.Android.dll
 C:\Code\RoomScheduler\RoomScheduler\RoomScheduler.Android\obj\Debug\MonoAndroid81\android\assets\mscorlib.dll
