@@ -7,6 +7,8 @@ using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using RoomScheduler.Models;
+using Microsoft.AppCenter.Crashes;
+using Microsoft.AppCenter.Analytics;
 
 namespace RoomScheduler.Views
 {
@@ -39,20 +41,39 @@ namespace RoomScheduler.Views
             try
             {
                 PhoneDialer.Open("16303449385");
+                Analytics.TrackEvent("Phone Call Attempted", new Dictionary<string, string>
+                {
+                    {"Where", "AboutUsPage - Phone Number - Tap" }
+                });
             }
             catch (FeatureNotEnabledException ex)
             {
-                Application.Current.MainPage.DisplayAlert("Error", "Sorry, the phone dialer is not supported", "OK");
+                Application.Current.MainPage.DisplayAlert("Error", ex.Message, "Sorry, the phone dialer is not supported", "OK");
+                Analytics.TrackEvent("Phone Call Attempted", new Dictionary<string, string>
+                {
+                    {"Where", "AboutUsPage - Phone Number - Tap" },
+                    {"Error", "Phone dialer was not supported on the device" }
+                });
             }
             catch (Exception ex)
             {
                 Application.Current.MainPage.DisplayAlert("Error", ex.Message, "OK");
+                Crashes.TrackError(ex, new Dictionary<string, string>
+                {
+                    {"Where", "AboutUsPage - Phone Number - Tap" },
+                    {"Error", ex.Message }
+                });
             }
         }
 
         private void BackButton_Tapped(object sender, EventArgs e)
         {
             (RootPage.Master as MenuPage).TakeMeHere(MenuItemType.Browse);
+        }
+
+        private void TestCrashButton_Clicked()
+        {
+            Crashes.GenerateTestCrash();
         }
     }
 }

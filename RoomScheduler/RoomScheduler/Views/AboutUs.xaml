@@ -39,7 +39,9 @@
             </Grid>
             
             <BoxView Grid.Row="1" BackgroundColor="Gray"/>
-            
+
+            <Button Text="Test Crash" Clicked="TestCrashButton_Clicked" />
+
             <ScrollView Grid.Row="2">
                 <StackLayout Padding="16, 40" Spacing="10">
                     <Label Text="A Collaborative Workspace" Style="{StaticResource HeaderLabelStyle}"/>

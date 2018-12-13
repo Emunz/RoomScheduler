@@ -5,6 +5,7 @@ using RoomScheduler.Services;
 using RoomScheduler.Views;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace RoomScheduler
@@ -32,7 +33,7 @@ namespace RoomScheduler
             AppCenter.Start("uwp=db62a449-64c8-4063-8039-cf60499c9e55;" +
                   "android=07e5dacc-4b03-49ac-99fe-571332935014" +
                   "ios=af531830-d6c2-4165-bf39-8c07dd6f1895",
-                  typeof(Analytics));
+                  typeof(Analytics), typeof(Crashes));
         }
 
         protected override void OnSleep()
